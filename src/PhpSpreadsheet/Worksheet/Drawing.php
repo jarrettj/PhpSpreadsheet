@@ -99,6 +99,28 @@ class Drawing extends BaseDrawing
     }
 
     /**
+     * Get URL.
+     *
+     * @return string
+     */
+    public function getURL()
+    {
+        return $this->url;
+    }
+
+    /**
+     * Set URL.
+     *
+     * @param string $url to file
+     *
+     * @return $this
+     */
+    public function setURL($url)
+    {
+        $this->url = $url;
+    }
+    
+    /**
      * Get hash code.
      *
      * @return string Hash code
